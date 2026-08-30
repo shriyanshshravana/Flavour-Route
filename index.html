@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="FlavourRoute - A multi-cuisine restaurant experience."
+    >
+
+    <title>FlavourRoute | Taste Beyond Borders</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- =========================
+         HEADER / NAVIGATION
+    ========================== -->
+
+    <header class="header" id="home">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                FLAVOUR<span>ROUTE</span>
+            </a>
+
+            <div class="nav-links" id="navLinks">
+
+                <a href="#home" class="nav-link active">
+                    Home
+                </a>
+
+                <a href="#cuisines" class="nav-link">
+                    Cuisines
+                </a>
+
+                <a href="#signature" class="nav-link">
+                    Signature
+                </a>
+
+                <a href="#journey" class="nav-link">
+                    My Journey
+                </a>
+
+                <a href="#about" class="nav-link">
+                    About
+                </a>
+
+            </div>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero">
+
+            <div class="hero-background">
+                <img
+                    src="assets/images/hero.jpg"
+                    alt="A beautifully presented multi-cuisine dining table"
+                >
+            </div>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <div class="eyebrow reveal">
+                    <span></span>
+                    A CULINARY JOURNEY
+                </div>
+
+                <h1 class="hero-title reveal">
+                    TASTE
+                    <em>BEYOND</em>
+                    BORDERS.
+                </h1>
+
+                <p class="hero-description reveal">
+                    One table. Five cultures. Endless flavours.
+                    Discover a world of authentic cuisines,
+                    crafted into unforgettable experiences.
+                </p>
+
+                <div class="hero-actions reveal">
+
+                    <a
+                        href="#cuisines"
+                        class="btn btn-primary"
+                    >
+                        Explore Cuisines
+                        <span>↗</span>
+                    </a>
+
+                    <a
+                        href="#journey"
+                        class="btn btn-outline"
+                    >
+                        Plan My Journey
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-scroll">
+                <span>SCROLL TO EXPLORE</span>
+                <span class="scroll-line"></span>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             STATS STRIP
+        ========================== -->
+
+        <section class="stats-section">
+
+            <div class="stats-container">
+
+                <div class="stat">
+                    <strong>05</strong>
+                    <span>CUISINES</span>
+                </div>
+
+                <div class="stat-divider"></div>
+
+                <div class="stat">
+                    <strong>40+</strong>
+                    <span>SIGNATURE DISHES</span>
+                </div>
+
+                <div class="stat-divider"></div>
+
+                <div class="stat">
+                    <strong>11AM</strong>
+                    <span>OPEN DAILY</span>
+                </div>
+
+                <div class="stat-divider"></div>
+
+                <div class="stat">
+                    <strong>∞</strong>
+                    <span>FLAVOURS</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CUISINE CAROUSEL
+        ========================== -->
+
+        <section
+            class="cuisine-section section"
+            id="cuisines"
+        >
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-number">01 / EXPLORE</span>
+
+                    <h2>
+                        A WORLD OF
+                        <em>FLAVOURS.</em>
+                    </h2>
+                </div>
+
+                <p>
+                    Travel the world through five distinctive
+                    culinary traditions, without leaving your table.
+                </p>
+
+            </div>
+
+
+            <div class="carousel" id="carousel">
+
+                <div class="carousel-track" id="carouselTrack">
+
+                    <!-- INDIA -->
+
+                    <article
+                        class="slide active"
+                        data-index="0"
+                    >
+
+                        <div class="slide-image">
+
+                            <img
+                                src="assets/images/india.jpg"
+                                alt="Indian cuisine"
+                            >
+
+                            <div class="image-number">
+                                01
+                            </div>
+
+                        </div>
+
+                        <div class="slide-content">
+
+                            <span class="slide-country">
+                                INDIA
+                            </span>
+
+                            <h3>
+                                The Soul
+                                <span>of Spice.</span>
+                            </h3>
+
+                            <p>
+                                Discover aromatic spices, traditional
+                                techniques and timeless recipes from
+                                the heart of India.
+                            </p>
+
+                            <div class="popular">
+
+                                <span>POPULAR PICKS</span>
+
+                                <div>
+                                    Biryani
+                                    <i>•</i>
+                                    Tandoori
+                                    <i>•</i>
+                                    Paneer Tikka
+                                </div>
+
+                            </div>
+
+                            <div class="slide-bottom">
+
+                                <span class="price">
+                                    FROM <strong>₹249</strong>
+                                </span>
+
+                                <button
+                                    class="add-cuisine"
+                                    data-task="Experience the Indian Signature Platter"
+                                >
+                                    + ADD TO JOURNEY
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- ITALY -->
+
+                    <article
+                        class="slide"
+                        data-index="1"
+                    >
+
+                        <div class="slide-image">
+
+                            <img
+                                src="assets/images/italy.jpg"
+                                alt="Italian pizza and pasta"
+                            >
+
+                            <div class="image-number">
+                                02
+                            </div>
+
+                        </div>
+
+                        <div class="slide-content">
+
+                            <span class="slide-country">
+                                ITALY
+                            </span>
+
+                            <h3>
+                                La Dolce
+                                <span>Vita.</span>
+                            </h3>
+
+                            <p>
+                                Rustic Italian classics, handcrafted pasta
+                                and wood-fired creations made with simple,
+                                exceptional ingredients.
+                            </p>
+
+                            <div class="popular">
+
+                                <span>POPULAR PICKS</span>
+
+                                <div>
+                                    Pizza
+                                    <i>•</i>
+                                    Pasta
+                                    <i>•</i>
+                                    Tiramisu
+                                </div>
+
+                            </div>
+
+                            <div class="slide-bottom">
+
+                                <span class="price">
+                                    FROM <strong>₹299</strong>
+                                </span>
+
+                                <button
+                                    class="add-cuisine"
+                                    data-task="Try the Wood-Fired Italian Pizza"
+                                >
+                                    + ADD TO JOURNEY
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- JAPAN -->
+
+                    <article
+                        class="slide"
+                        data-index="2"
+                    >
+
+                        <div class="slide-image">
+
+                            <img
+                                src="assets/images/japan.jpg"
+                                alt="Japanese sushi platter"
+                            >
+
+                            <div class="image-number">
+                                03
+                            </div>
+
+                        </div>
+
+                        <div class="slide-content">
+
+                            <span class="slide-country">
+                                JAPAN
+                            </span>
+
+                            <h3>
+                                Art
+                                <span>on a Plate.</span>
+                            </h3>
+
+                            <p>
+                                Experience Japanese precision through
+                                beautifully crafted sushi, ramen and
+                                delicate traditional flavours.
+                            </p>
+
+                            <div class="popular">
+
+                                <span>POPULAR PICKS</span>
+
+                                <div>
+                                    Sushi
+                                    <i>•</i>
+                                    Ramen
+                                    <i>•</i>
+                                    Gyoza
+                                </div>
+
+                            </div>
+
+                            <div class="slide-bottom">
+
+                                <span class="price">
+                                    FROM <strong>₹349</strong>
+                                </span>
+
+                                <button
+                                    class="add-cuisine"
+                                    data-task="Experience the Japanese Sushi Platter"
+                                >
+                                    + ADD TO JOURNEY
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MEXICO -->
+
+                    <article
+                        class="slide"
+                        data-index="3"
+                    >
+
+                        <div class="slide-image">
+
+                            <img
+                                src="assets/images/mexico.jpg"
+                                alt="Mexican tacos"
+                            >
+
+                            <div class="image-number">
+                                04
+                            </div>
+
+                        </div>
+
+                        <div class="slide-content">
+
+                            <span class="slide-country">
+                                MEXICO
+                            </span>
+
+                            <h3>
+                                Bold &
+                                <span>Vibrant.</span>
+                            </h3>
+
+                            <p>
+                                Bright colours, bold spices and energetic
+                                flavours come together in Mexico's most
+                                loved dishes.
+                            </p>
+
+                            <div class="popular">
+
+                                <span>POPULAR PICKS</span>
+
+                                <div>
+                                    Tacos
+                                    <i>•</i>
+                                    Quesadillas
+                                    <i>•</i>
+                                    Nachos
+                                </div>
+
+                            </div>
+
+                            <div class="slide-bottom">
+
+                                <span class="price">
+                                    FROM <strong>₹229</strong>
+                                </span>
+
+                                <button
+                                    class="add-cuisine"
+                                    data-task="Taste the Mexican Taco Experience"
+                                >
+                                    + ADD TO JOURNEY
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- THAILAND -->
+
+                    <article
+                        class="slide"
+                        data-index="4"
+                    >
+
+                        <div class="slide-image">
+
+                            <img
+                                src="assets/images/thailand.jpg"
+                                alt="Thai cuisine"
+                            >
+
+                            <div class="image-number">
+                                05
+                            </div>
+
+                        </div>
+
+                        <div class="slide-content">
+
+                            <span class="slide-country">
+                                THAILAND
+                            </span>
+
+                            <h3>
+                                Sweet.
+                                <span>Sour. Spicy.</span>
+                            </h3>
+
+                            <p>
+                                Explore fragrant herbs, creamy coconut
+                                curries and the unforgettable balance
+                                of Thai flavours.
+                            </p>
+
+                            <div class="popular">
+
+                                <span>POPULAR PICKS</span>
+
+                                <div>
+                                    Pad Thai
+                                    <i>•</i>
+                                    Green Curry
+                                    <i>•</i>
+                                    Tom Yum
+                                </div>
+
+                            </div>
+
+                            <div class="slide-bottom">
+
+                                <span class="price">
+                                    FROM <strong>₹279</strong>
+                                </span>
+
+                                <button
+                                    class="add-cuisine"
+                                    data-task="Explore the Thai Curry Experience"
+                                >
+                                    + ADD TO JOURNEY
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <!-- CAROUSEL CONTROLS -->
+
+                <button
+                    class="carousel-arrow previous"
+                    id="prevBtn"
+                    aria-label="Previous cuisine"
+                >
+                    ←
+                </button>
+
+                <button
+                    class="carousel-arrow next"
+                    id="nextBtn"
+                    aria-label="Next cuisine"
+                >
+                    →
+                </button>
+
+
+                <div class="carousel-footer">
+
+                    <div
+                        class="carousel-indicators"
+                        id="indicators"
+                    >
+
+                        <button
+                            class="indicator active"
+                            data-slide="0"
+                            aria-label="Go to Indian cuisine"
+                        ></button>
+
+                        <button
+                            class="indicator"
+                            data-slide="1"
+                            aria-label="Go to Italian cuisine"
+                        ></button>
+
+                        <button
+                            class="indicator"
+                            data-slide="2"
+                            aria-label="Go to Japanese cuisine"
+                        ></button>
+
+                        <button
+                            class="indicator"
+                            data-slide="3"
+                            aria-label="Go to Mexican cuisine"
+                        ></button>
+
+                        <button
+                            class="indicator"
+                            data-slide="4"
+                            aria-label="Go to Thai cuisine"
+                        ></button>
+
+                    </div>
+
+                    <span class="carousel-hint">
+                        AUTOPLAY · HOVER TO PAUSE
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SIGNATURE DISHES
+        ========================== -->
+
+        <section
+            class="signature-section section"
+            id="signature"
+        >
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-number">
+                        02 / SIGNATURE
+                    </span>
+
+                    <h2>
+                        HOUSE
+                        <em>FAVOURITES.</em>
+                    </h2>
+                </div>
+
+                <p>
+                    A few of the dishes that define our table.
+                </p>
+
+            </div>
+
+
+            <div class="dish-grid">
+
+                <article class="dish-card">
+
+                    <div class="dish-image">
+
+                        <img
+                            src="assets/images/biryani.jpg"
+                            alt="Royal Dum Biryani"
+                        >
+
+                        <span>INDIA</span>
+
+                    </div>
+
+                    <div class="dish-info">
+
+                        <div>
+                            <h3>Royal Dum Biryani</h3>
+
+                            <p>
+                                Fragrant basmati rice,
+                                aromatic spices and slow-cooked flavours.
+                            </p>
+                        </div>
+
+                        <strong>₹449</strong>
+
+                    </div>
+
+                </article>
+
+
+                <article class="dish-card">
+
+                    <div class="dish-image">
+
+                        <img
+                            src="assets/images/pasta.jpg"
+                            alt="Italian pasta"
+                        >
+
+                        <span>ITALY</span>
+
+                    </div>
+
+                    <div class="dish-info">
+
+                        <div>
+                            <h3>Truffle Alfredo</h3>
+
+                            <p>
+                                Fresh pasta finished with
+                                parmesan and delicate truffle.
+                            </p>
+                        </div>
+
+                        <strong>₹399</strong>
+
+                    </div>
+
+                </article>
+
+
+                <article class="dish-card">
+
+                    <div class="dish-image">
+
+                        <img
+                            src="assets/images/sushi.jpg"
+                            alt="Japanese sushi"
+                        >
+
+                        <span>JAPAN</span>
+
+                    </div>
+
+                    <div class="dish-info">
+
+                        <div>
+                            <h3>Signature Sushi</h3>
+
+                            <p>
+                                Freshly crafted rolls with
+                                balanced Japanese flavours.
+                            </p>
+                        </div>
+
+                        <strong>₹499</strong>
+
+                    </div>
+
+                </article>
+
+
+                <article class="dish-card">
+
+                    <div class="dish-image">
+
+                        <img
+                            src="assets/images/tacos.jpg"
+                            alt="Mexican tacos"
+                        >
+
+                        <span>MEXICO</span>
+
+                    </div>
+
+                    <div class="dish-info">
+
+                        <div>
+                            <h3>Street Tacos</h3>
+
+                            <p>
+                                Soft tortillas, vibrant fillings
+                                and a smoky Mexican finish.
+                            </p>
+                        </div>
+
+                        <strong>₹299</strong>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FOOD JOURNEY / TO-DO
+        ========================== -->
+
+        <section
+            class="journey-section section"
+            id="journey"
+        >
+
+            <div class="journey-wrapper">
+
+                <div class="journey-intro">
+
+                    <span class="section-number">
+                        03 / YOUR JOURNEY
+                    </span>
+
+                    <h2>
+                        SAVE IT TODAY.
+                        <em>TASTE IT TOMORROW.</em>
+                    </h2>
+
+                    <p>
+                        Build your personal culinary bucket list.
+                        Add cuisines from the carousel or create
+                        your own tasting plans.
+                    </p>
+
+                    <div class="journey-note">
+                        <span>✦</span>
+                        Your list is automatically saved on this device.
+                    </div>
+
+                </div>
+
+
+                <div class="journey-card">
+
+                    <!-- COUNTERS -->
+
+                    <div class="journey-stats">
+
+                        <div class="journey-stat">
+                            <strong id="totalCount">0</strong>
+                            <span>TOTAL</span>
+                        </div>
+
+                        <div class="journey-stat">
+                            <strong id="completedCount">0</strong>
+                            <span>TASTED</span>
+                        </div>
+
+                        <div class="journey-stat">
+                            <strong id="remainingCount">0</strong>
+                            <span>TO TRY</span>
+                        </div>
+
+                    </div>
+
+
+                    <!-- PROGRESS -->
+
+                    <div class="progress-area">
+
+                        <div class="progress-top">
+
+                            <span>YOUR JOURNEY</span>
+
+                            <strong id="progressText">
+                                0%
+                            </strong>
+
+                        </div>
+
+                        <div class="progress-track">
+
+                            <div
+                                class="progress-bar"
+                                id="progressBar"
+                            ></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- TASK FORM -->
+
+                    <form
+                        class="task-form"
+                        id="taskForm"
+                    >
+
+                        <label for="taskInput">
+                            ADD SOMETHING TO TRY
+                        </label>
+
+                        <div class="input-row">
+
+                            <input
+                                type="text"
+                                id="taskInput"
+                                placeholder="e.g. Try Korean Bibimbap"
+                                autocomplete="off"
+                            >
+
+                            <button
+                                type="submit"
+                                class="add-task-btn"
+                            >
+                                ADD
+                            </button>
+
+                        </div>
+
+                        <p
+                            class="form-message"
+                            id="formMessage"
+                            aria-live="polite"
+                        ></p>
+
+                    </form>
+
+
+                    <!-- FILTERS -->
+
+                    <div class="task-controls">
+
+                        <span>FILTER</span>
+
+                        <div class="filters">
+
+                            <button
+                                class="filter-btn active"
+                                data-filter="all"
+                            >
+                                ALL
+                            </button>
+
+                            <button
+                                class="filter-btn"
+                                data-filter="active"
+                            >
+                                TO TASTE
+                            </button>
+
+                            <button
+                                class="filter-btn"
+                                data-filter="completed"
+                            >
+                                TASTED
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- TASK LIST -->
+
+                    <div
+                        class="task-list"
+                        id="taskList"
+                    ></div>
+
+
+                    <!-- EMPTY STATE -->
+
+                    <div
+                        class="empty-state"
+                        id="emptyState"
+                    >
+
+                        <div class="empty-icon">
+                            ✦
+                        </div>
+
+                        <h3>
+                            Your journey is empty.
+                        </h3>
+
+                        <p>
+                            Explore a cuisine above and save
+                            something you'd love to taste.
+                        </p>
+
+                        <a href="#cuisines">
+                            Explore Cuisines →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section
+            class="about-section section"
+            id="about"
+        >
+
+            <div class="about-image">
+
+                <img
+                    src="assets/images/hero.jpg"
+                    alt="FlavourRoute restaurant experience"
+                >
+
+            </div>
+
+            <div class="about-content">
+
+                <span class="section-number">
+                    04 / OUR PHILOSOPHY
+                </span>
+
+                <h2>
+                    ONE RESTAURANT.
+                    <em>MANY STORIES.</em>
+                </h2>
+
+                <p>
+                    At FlavourRoute, food is more than a meal.
+                    It is a passport to another culture, a memory
+                    waiting to be made and a reason to gather around
+                    one table.
+                </p>
+
+                <p>
+                    From the spices of India to the precision of
+                    Japan, every dish celebrates the character
+                    of the cuisine it represents.
+                </p>
+
+                <div class="about-line"></div>
+
+                <span class="about-signature">
+                    TASTE THE WORLD.
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FINAL CTA
+        ========================== -->
+
+        <section class="cta-section">
+
+            <div class="cta-content">
+
+                <span class="section-number">
+                    YOUR TABLE IS WAITING
+                </span>
+
+                <h2>
+                    GREAT JOURNEYS
+                    <em>BEGIN WITH A MEAL.</em>
+                </h2>
+
+                <a
+                    href="#journey"
+                    class="btn btn-primary"
+                >
+                    Plan Your Food Journey
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer" id="contact">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    FLAVOUR<span>ROUTE</span>
+                </a>
+
+                <p>
+                    Taste beyond borders.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#cuisines">Cuisines</a>
+                <a href="#signature">Signature</a>
+                <a href="#journey">My Journey</a>
+                <a href="#about">About</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 FlavourRoute
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- TOAST -->
+
+    <div
+        class="toast"
+        id="toast"
+        role="status"
+        aria-live="polite"
+    >
+        <span>✓</span>
+        <p id="toastMessage">
+            Added to your journey.
+        </p>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
